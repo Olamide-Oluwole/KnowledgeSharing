@@ -14400,7 +14400,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"folderId\": 2,\n  \"name\": \"Magento Customer - ES\"\n}",
+									"raw": "{\n  \"folderId\": {{folderid}},\n  \"name\": \"{{$randomFileName}} List\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -34649,7 +34649,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "aaa3fa81-539a-41a8-8dcb-2777c06af136",
+				"id": "5b7b7760-957c-4ecc-b0c1-2ea149433705",
 				"type": "text/javascript",
 				"exec": [
 					"//Setting the wait time for when the next request will be run",
@@ -34660,7 +34660,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5be74539-73cd-4e13-8ea1-da0f576bced3",
+				"id": "3d2a05ca-200a-4fe8-9bab-30e57a4cdc6a",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -34715,19 +34715,19 @@
 		},
 		{
 			"key": "folderid",
-			"value": ""
+			"value": 12
 		},
 		{
 			"key": "listid",
-			"value": ""
+			"value": 13
 		},
 		{
 			"key": "othercontactemail1",
-			"value": ""
+			"value": "carmelo_heller68@yahoo.com"
 		},
 		{
 			"key": "contactemail",
-			"value": ""
+			"value": "donnell.kuhlman50@hotmail.com"
 		}
 	]
 }
